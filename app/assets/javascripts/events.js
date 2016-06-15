@@ -3,7 +3,7 @@ $(document).ready(function(){
   var calendar = $('#calendar').fullCalendar({
     events: events,
     defaultView: 'basicWeek',
-    columnFormat: 'dddd Mo MMM',
+    columnFormat: 'dddd Do MMM',
     eventRender: function(event, element) {
       $(element).html(event.title);
     }
