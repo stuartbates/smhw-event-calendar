@@ -45,3 +45,11 @@ group :development do
   gem 'spring'
 end
 
+group :test do
+  gem 'capybara'
+  gem 'database_cleaner'
+  gem 'factory_girl_rails'
+  gem 'poltergeist'
+  gem 'rspec-rails'
+  gem 'selenium-webdriver'
+end
