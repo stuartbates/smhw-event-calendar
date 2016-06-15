@@ -11,6 +11,12 @@
 // about supported directives.
 //
 //= require jquery
+//= require jquery-ui
 //= require jquery_ujs
 //= require turbolinks
-//= require_tree .
+//= require jquery.validate
+//= require jquery.validate.additional-methods
+
+//= require moment
+//= require fullcalendar
+//= require events

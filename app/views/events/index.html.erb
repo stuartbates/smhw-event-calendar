@@ -1,7 +1,11 @@
-<h1>Events calendar</h1>
+<%= raw render_events_as_js %>
 
-<%= link_to 'Create event' %>
+<h1><%= t('.title') %></h1>
 
-<!-- Remove the following image tag and add the markup to create a basic weekly calendar -->
-<%= image_tag 'events_calendar', width: '100%' %>
+<div id="calendar" class="calendar">
 
+</div>
+
+<div class="sidebar">
+  <%= render 'form' %>
+</div>
