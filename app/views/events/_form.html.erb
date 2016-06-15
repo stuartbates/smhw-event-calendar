@@ -1,0 +1,27 @@
+<%= form_for @event, remote: true do |f| %>
+
+    <fieldset>
+      <%= f.label :title %>
+      <%= f.text_field :title %>
+    </fieldset>
+
+    <fieldset>
+      <%= f.label :start_date %>
+      <%= f.text_field :start_date %>
+    </fieldset>
+
+    <fieldset>
+      <%= f.label :end_date %>
+      <%= f.text_field :end_date %>
+    </fieldset>
+
+    <fieldset>
+      <%= f.label :description %>
+      <%= f.text_field :description %>
+    </fieldset>
+
+    <fieldset>
+      <%= f.submit t('.submit') %>
+    </fieldset>
+
+<% end %>
