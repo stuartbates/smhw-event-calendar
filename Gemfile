@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gem 'annotate'
 gem 'fullcalendar-rails'
+gem 'jquery-ui-rails'
+gem 'jquery-validation-rails'
 gem 'momentjs-rails'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
