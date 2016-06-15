@@ -11,14 +11,14 @@
 
 ## Setup
 
-## Review
+Make sure your bundle is up to date:
 
-I've generally tried to commit often so hopefully you can appreciate the 
-outside-in nature of the development process. I haven't used Cucumber as 
-I only tend to use that when working directly with clients. There's feature 
-specs that drill through the whole user journey supported by controller
-and model specs.
+    bundle
+    
+To run the application:
 
+    bin/rails s
+    
 You can lint all factories and run the test suite by simply running:
 
     rake
@@ -26,6 +26,14 @@ You can lint all factories and run the test suite by simply running:
 Or if you just want to run the specs:
 
     bin/rspec
+
+## Review
+
+I've generally tried to commit often so hopefully you can appreciate the 
+outside-in nature of the development process. I haven't used Cucumber as 
+I only tend to use that when working directly with clients. There's feature 
+specs that drill through the whole user journey supported by controller
+and model specs.
     
 A few thoughts:
 
