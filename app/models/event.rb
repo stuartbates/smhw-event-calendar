@@ -16,4 +16,14 @@
 
 class Event < ActiveRecord::Base
 
+  validates :title, :start_date, :end_date, presence: true
+
+  def as_json(options = nil)
+    {
+        title: title,
+        start: start_date.to_time.iso8601,
+        end: end_date.to_time.iso8601,
+    }
+  end
+
 end
