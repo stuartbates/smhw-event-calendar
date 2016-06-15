@@ -19,9 +19,15 @@ I only tend to use that when working directly with clients. There's feature
 specs that drill through the whole user journey supported by controller
 and model specs.
 
-To run the test suite simply run:
+You can lint all factories and run the test suite by simply running:
+
+    rake
+
+Or if you just want to run the specs:
 
     bin/rspec
+    
+A few thoughts:
 
 - I decided to pass the data through to JS on the page using a simple view helper. Equally could have:
  - Used gon which might be preferable with lots of variables being rendered or polled continuously 
