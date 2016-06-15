@@ -34,7 +34,7 @@ describe EventsController do
       it 'responds with json of events' do
         event = build(:event)
         post :create, event: { title: event.title, start_date: event.start_date, end_date: event.end_date }
-        response.body.should == [event].to_json
+        expect(response.body).to eq([event].to_json)
       end
     end
 
