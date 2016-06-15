@@ -23,3 +23,5 @@ en:
   events:
     form:
       submit: Create Event
+    index:
+      title: Events calendar
