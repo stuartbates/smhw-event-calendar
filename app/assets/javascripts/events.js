@@ -2,6 +2,11 @@ $(document).ready(function(){
 
   var calendar = $('#calendar').fullCalendar({
     events: events,
+    defaultView: 'basicWeek',
+    columnFormat: 'dddd Mo MMM',
+    eventRender: function(event, element) {
+      $(element).html(event.title);
+    }
   });
 
   $('#new_event').validate();

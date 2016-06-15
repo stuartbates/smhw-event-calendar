@@ -23,5 +23,6 @@ en:
   events:
     form:
       submit: Create Event
+      title: Create New Event
     index:
       title: Events calendar
